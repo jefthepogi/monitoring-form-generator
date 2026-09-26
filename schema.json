@@ -1,0 +1,364 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MonitoringFormDocumentData",
+  "$defs": {
+    "Certification": {
+      "description": "One attestation block: a statement followed by one or more signature lines,\nlaid out side by side. Replaces the two hardcoded certification paragraphs\nthat used to live in the generator script.",
+      "properties": {
+        "statement": {
+          "description": "Certification/attestation statement text",
+          "title": "Statement",
+          "type": "string"
+        },
+        "signatories": {
+          "description": "People who sign under this statement, left to right",
+          "items": {
+            "$ref": "#/$defs/Signatory"
+          },
+          "title": "Signatories",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement",
+        "signatories"
+      ],
+      "title": "Certification",
+      "type": "object"
+    },
+    "HeaderInfo": {
+      "properties": {
+        "institution": {
+          "description": "Name of the university/institution",
+          "title": "Institution",
+          "type": "string"
+        },
+        "location": {
+          "description": "Campus location",
+          "title": "Location",
+          "type": "string"
+        },
+        "department": {
+          "description": "Department or course program",
+          "title": "Department",
+          "type": "string"
+        },
+        "form_type": {
+          "description": "Name of this specific monitoring form, e.g. 'SPMP Project Monitoring', 'SRS Project Monitoring', or 'SDD Project Monitoring'. The template is generic, so any of the three compliance sheets can be produced by changing this value (and the monitoring_items).",
+          "title": "Form Type",
+          "type": "string"
+        },
+        "issue_no": {
+          "description": "Document issue number",
+          "title": "Issue No",
+          "type": "string"
+        },
+        "revision_no": {
+          "description": "Document revision number",
+          "title": "Revision No",
+          "type": "string"
+        },
+        "effective_date": {
+          "description": "Form effective date",
+          "title": "Effective Date",
+          "type": "string"
+        },
+        "page_info": {
+          "description": "Pagination text (e.g. 'Page 1 of 2')",
+          "title": "Page Info",
+          "type": "string"
+        },
+        "logo_path": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional path to a logo image file placed in the header's logo cell.",
+          "title": "Logo Path"
+        }
+      },
+      "required": [
+        "institution",
+        "location",
+        "department",
+        "form_type",
+        "issue_no",
+        "revision_no",
+        "effective_date",
+        "page_info"
+      ],
+      "title": "HeaderInfo",
+      "type": "object"
+    },
+    "MonitoringItem": {
+      "properties": {
+        "section_id": {
+          "default": "",
+          "description": "Section or chapter numbering",
+          "title": "Section Id",
+          "type": "string"
+        },
+        "title": {
+          "description": "Section title or description",
+          "title": "Title",
+          "type": "string"
+        },
+        "is_header": {
+          "default": false,
+          "description": "True if this row is a section header/divider row",
+          "title": "Is Header",
+          "type": "boolean"
+        },
+        "corrections": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "",
+          "description": "Corrections/Suggestions/Recommendations noted for this section",
+          "title": "Corrections"
+        },
+        "page_no": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "",
+          "description": "Page number of the actual revision",
+          "title": "Page No"
+        },
+        "client_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "",
+          "description": "Name of evaluator/client",
+          "title": "Client Name"
+        },
+        "complied": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": true,
+          "description": "True renders a check under Yes, False under No",
+          "title": "Complied"
+        },
+        "remarks": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "",
+          "description": "Remarks, with signature of client",
+          "title": "Remarks"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "MonitoringItem",
+      "type": "object"
+    },
+    "ProjectInfo": {
+      "properties": {
+        "title": {
+          "description": "Title of Thesis / Feasibility Study / Capstone Project",
+          "title": "Title",
+          "type": "string"
+        },
+        "candidates": {
+          "description": "Names of student researchers/candidates",
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidates",
+          "type": "array"
+        },
+        "degree": {
+          "description": "Degree program name",
+          "title": "Degree",
+          "type": "string"
+        },
+        "school_year": {
+          "description": "Academic school year",
+          "title": "School Year",
+          "type": "string"
+        },
+        "term": {
+          "description": "Academic term/semester",
+          "title": "Term",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "candidates",
+        "degree",
+        "school_year",
+        "term"
+      ],
+      "title": "ProjectInfo",
+      "type": "object"
+    },
+    "Signatory": {
+      "properties": {
+        "name": {
+          "description": "Full name printed under the signature line",
+          "title": "Name",
+          "type": "string"
+        },
+        "title": {
+          "description": "Title/role printed under the name (e.g. 'Researcher')",
+          "title": "Title",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "title"
+      ],
+      "title": "Signatory",
+      "type": "object"
+    },
+    "SignaturesInfo": {
+      "properties": {
+        "certifications": {
+          "description": "Ordered list of certification blocks, e.g. the researchers' certification followed by the client/professor attestation.",
+          "items": {
+            "$ref": "#/$defs/Certification"
+          },
+          "title": "Certifications",
+          "type": "array"
+        }
+      },
+      "required": [
+        "certifications"
+      ],
+      "title": "SignaturesInfo",
+      "type": "object"
+    },
+    "TableColumns": {
+      "description": "Editable column labels for the monitoring table. Kept in the data model\n(instead of hardcoded in the generator) so the same script can render the\nSPMP, SRS, or SDD compliance sheet just by swapping these labels.",
+      "properties": {
+        "part_chapter": {
+          "default": "Part/Chapter",
+          "title": "Part Chapter",
+          "type": "string"
+        },
+        "corrections": {
+          "default": "Corrections/Suggestions/Recommendations",
+          "title": "Corrections",
+          "type": "string"
+        },
+        "page_no": {
+          "default": "Page No.",
+          "title": "Page No",
+          "type": "string"
+        },
+        "page_no_footnote": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "1",
+          "description": "Superscript footnote marker rendered next to the Page No. header.",
+          "title": "Page No Footnote"
+        },
+        "client_name": {
+          "default": "Name of Client",
+          "title": "Client Name",
+          "type": "string"
+        },
+        "complied": {
+          "default": "Complied?",
+          "title": "Complied",
+          "type": "string"
+        },
+        "complied_yes": {
+          "default": "Yes",
+          "title": "Complied Yes",
+          "type": "string"
+        },
+        "complied_no": {
+          "default": "No",
+          "title": "Complied No",
+          "type": "string"
+        },
+        "remarks": {
+          "default": "Remarks with signature of client",
+          "title": "Remarks",
+          "type": "string"
+        }
+      },
+      "title": "TableColumns",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "header_info": {
+      "$ref": "#/$defs/HeaderInfo"
+    },
+    "project_info": {
+      "$ref": "#/$defs/ProjectInfo"
+    },
+    "table_columns": {
+      "$ref": "#/$defs/TableColumns"
+    },
+    "monitoring_items": {
+      "items": {
+        "$ref": "#/$defs/MonitoringItem"
+      },
+      "title": "Monitoring Items",
+      "type": "array"
+    },
+    "notes": {
+      "description": "Numbered footnotes rendered above the certification block.",
+      "items": {
+        "type": "string"
+      },
+      "title": "Notes",
+      "type": "array"
+    },
+    "signatures": {
+      "$ref": "#/$defs/SignaturesInfo"
+    }
+  },
+  "required": [
+    "header_info",
+    "project_info",
+    "monitoring_items",
+    "signatures"
+  ],
+  "type": "object"
+}

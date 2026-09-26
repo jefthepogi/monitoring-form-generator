@@ -1,0 +1,8 @@
+# envs
+__pycache__
+.venv
+*.sh
+
+# data
+*.csv
+/outputs

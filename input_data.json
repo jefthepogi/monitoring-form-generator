@@ -1,0 +1,649 @@
+{
+  "header_info": {
+    "institution": "LA SALLE UNIVERSITY",
+    "location": "Ozamiz City",
+    "department": "SOFTWARE ENGINEERING",
+    "issue_no": "1",
+    "revision_no": "1",
+    "effective_date": "2026-09-27",
+    "page_info": "Page 1 of 2",
+    "form_type": "SPMP Project Monitoring"
+  },
+  "project_info": {
+    "title": "<TITLE>",
+    "candidates": [
+      "<RESEARCHER 1>",
+      "<RESEARCHER 2>"
+    ],
+    "degree": "BS Computer Science",
+    "school_year": "2026-2027",
+    "term": "1st Term"
+  },
+  "table_columns": {
+    "part_chapter": "Part/Chapter",
+    "corrections": "Corrections/Suggestions/Recommendations",
+    "page_no": "Page No.",
+    "page_no_footnote": "1",
+    "client_name": "Name of Client",
+    "complied": "Complied?",
+    "complied_yes": "Yes",
+    "complied_no": "No",
+    "remarks": "Remarks with signature of client"
+  },
+  "monitoring_items": [
+    {
+      "section_id": "1",
+      "title": "OVERVIEW",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1",
+      "title": "Project Summary",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "12",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.1",
+      "title": "Purpose, Scope, and Objectives",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "12",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.1.1",
+      "title": "Purpose",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "12",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.1.2",
+      "title": "Scope",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "12",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.1.3",
+      "title": "Objectives",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "13",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.1.4",
+      "title": "Significance of the Study",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "14",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.2",
+      "title": "Assumptions and Constraints",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "15",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.2.1",
+      "title": "Assumptions",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "15",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.2.2",
+      "title": "Constraints",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "17",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.3",
+      "title": "Project Deliverables",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "20",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.1.4",
+      "title": "Schedule and Budget Summary",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "21",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "1.2",
+      "title": "Evolution of the plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "26",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "2",
+      "title": "Definitions",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Definitions Section Content",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "30",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "3",
+      "title": "Project Organization",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "3.1",
+      "title": "External Structures (DIAGRAM)",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "33",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "3.2",
+      "title": "Internal Structure (DIAGRAM)",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "34",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "3.3",
+      "title": "Roles and Responsibilities",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "35",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4",
+      "title": "Managerial Process Plans",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1",
+      "title": "Start-Up Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "38",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.1",
+      "title": "Estimation Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "39",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.1.1",
+      "title": "Effort and Task Sizing Method",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "39",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.1.2",
+      "title": "Schedule and Flow Estimation",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "39",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.2",
+      "title": "Staffing Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "42",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.3",
+      "title": "Resource Acquisition Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "43",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.1.4",
+      "title": "Project Staff Training Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "47",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.2",
+      "title": "Work Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "48",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.2.1",
+      "title": "Work Activities",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "48",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.2.2",
+      "title": "Schedule Allocation",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "53",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.2.3",
+      "title": "Resource and Budget Allocation",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "53",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3",
+      "title": "Control Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "54",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.1",
+      "title": "Requirements Control Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "54",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.2",
+      "title": "Schedule Control Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "59",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.3",
+      "title": "Budget Control Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "61",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.4",
+      "title": "Quality Control Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "63",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.5",
+      "title": "Reporting Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "65",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.5.1",
+      "title": "Internal Reporting Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "65",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.5.2",
+      "title": "External Reporting Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "67",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.3.6",
+      "title": "Metrics Collection Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "68",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.4",
+      "title": "Risk Management Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "75",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "4.5",
+      "title": "Closeout Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "78",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5",
+      "title": "Work Plan",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.1",
+      "title": "Process Model",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "81",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.2",
+      "title": "Methods, Tools, and Techniques",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "87",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.3",
+      "title": "Infrastructure Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "89",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.4",
+      "title": "Product Acceptance Plan",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "90",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.4.1",
+      "title": "Project documentation",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "90",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "5.4.2",
+      "title": "End product",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "90",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "7",
+      "title": "Additional Plans",
+      "is_header": true,
+      "corrections": "",
+      "page_no": "",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "References",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "91",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Appendices",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "94",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Appendix A",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "95",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Appendix B",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "96",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Appendix C",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "97",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "C.1",
+      "title": "RMMM Traceability Matrix and Risk Information Sheets",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "97",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "C.2",
+      "title": "Phase Gate 4 Empirical Failure Corrective Protocols",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "176",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    },
+    {
+      "section_id": "",
+      "title": "Appendix D",
+      "is_header": false,
+      "corrections": "",
+      "page_no": "184",
+      "client_name": "",
+      "complied": true,
+      "remarks": ""
+    }
+  ],
+  "notes": [
+    "Student-researchers are required to submit this Compliance Sheet for them to be given grades.",
+    "Please indicate page numbers of the actual revision based on the revised copy of the manuscript."
+  ],
+  "signatures": {
+    "certifications": [
+      {
+        "statement": "This is to certify that we have reviewed our manuscript and incorporated all the necessary revisions suggested on the panel members.",
+        "signatories": [
+          {
+            "name": "<FULLNAME>",
+            "title": "Researcher"
+          },
+          {
+            "name": "<FULLNAME>",
+            "title": "Researcher"
+          }
+        ]
+      },
+      {
+        "statement": "This is to attest that the student-researchers have incorporated all the revisions, corrections, and recommendations suggested by the panel members.",
+        "signatories": [
+          {
+            "name": "<FULLNAME>",
+            "title": "Client/Respondent"
+          },
+          {
+            "name": "<FULLNAME>",
+            "title": "SOFTWARE ENGINEERING PROFESSOR"
+          }
+        ]
+      }
+    ]
+  }
+}
