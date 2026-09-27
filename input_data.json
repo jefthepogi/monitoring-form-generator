@@ -3,32 +3,21 @@
     "institution": "LA SALLE UNIVERSITY",
     "location": "Ozamiz City",
     "department": "SOFTWARE ENGINEERING",
+    "form_type": "SPMP Project Monitoring",
     "issue_no": "1",
     "revision_no": "1",
     "effective_date": "2026-09-27",
-    "page_info": "Page 1 of 2",
-    "form_type": "SPMP Project Monitoring"
+    "page_info": "Page 1 of 1"
   },
   "project_info": {
-    "title": "<TITLE>",
+    "title": "Software Engineering SPMP Project Monitoring System",
     "candidates": [
-      "<RESEARCHER 1>",
-      "<RESEARCHER 2>"
+      "RESEARCHER 1",
+      "RESEARCHER 2"
     ],
     "degree": "BS Computer Science",
     "school_year": "2026-2027",
     "term": "1st Term"
-  },
-  "table_columns": {
-    "part_chapter": "Part/Chapter",
-    "corrections": "Corrections/Suggestions/Recommendations",
-    "page_no": "Page No.",
-    "page_no_footnote": "1",
-    "client_name": "Name of Client",
-    "complied": "Complied?",
-    "complied_yes": "Yes",
-    "complied_no": "No",
-    "remarks": "Remarks with signature of client"
   },
   "monitoring_items": [
     {
@@ -612,38 +601,14 @@
       "remarks": ""
     }
   ],
-  "notes": [
-    "Student-researchers are required to submit this Compliance Sheet for them to be given grades.",
-    "Please indicate page numbers of the actual revision based on the revised copy of the manuscript."
-  ],
   "signatures": {
-    "certifications": [
-      {
-        "statement": "This is to certify that we have reviewed our manuscript and incorporated all the necessary revisions suggested on the panel members.",
-        "signatories": [
-          {
-            "name": "<FULLNAME>",
-            "title": "Researcher"
-          },
-          {
-            "name": "<FULLNAME>",
-            "title": "Researcher"
-          }
-        ]
-      },
-      {
-        "statement": "This is to attest that the student-researchers have incorporated all the revisions, corrections, and recommendations suggested by the panel members.",
-        "signatories": [
-          {
-            "name": "<FULLNAME>",
-            "title": "Client/Respondent"
-          },
-          {
-            "name": "<FULLNAME>",
-            "title": "SOFTWARE ENGINEERING PROFESSOR"
-          }
-        ]
-      }
-    ]
+    "researchers": [
+      "JEF RUSSEL Q. MANONGAS",
+      "CHASYN T. CULMINAS"
+    ],
+    "client_name": "FULLNAME",
+    "client_title": "Client/Respondent",
+    "professor_name": "FULLNAME",
+    "professor_title": "SOFTWARE ENGINEERING PROFESSOR"
   }
 }
