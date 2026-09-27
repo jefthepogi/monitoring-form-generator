@@ -1,4 +1,5 @@
 {
+  "$schema": "./schema.json",
   "header_info": {
     "institution": "LA SALLE UNIVERSITY",
     "location": "Ozamiz City",
